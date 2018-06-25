@@ -1,0 +1,31 @@
+.block {
+    display: block;
+
+    margin: 50px 50px 50px 50px;
+    padding: 30px 30px 30px 30px;
+
+    height: 40px;
+    width: 120px;
+
+    text-align: center;
+
+    border: solid 10px #b2d;
+}
+
+.inline-block {
+    display: inline-block;
+
+    margin: 50px 50px 50px 50px;
+    padding: 30px 30px 30px 30px;
+
+    height: 40px;
+    width: 120px;
+
+    border: solid 10px #b2d;
+}
+
+.flex-box {
+    display: flex;
+    height: 40px;
+    width: 120px;
+}
