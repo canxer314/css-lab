@@ -1,0 +1,98 @@
+body {
+    padding:  0px;
+    margin: 0px;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+.header {
+    height: 70px;
+    padding: 0 20px;
+}
+
+.site-icon {
+    float: left;
+    width: 200px;
+    height: 70px;
+    background: #ff0000;
+}
+
+.search-bar {
+    float: left;
+    width: 350px;
+    height: 70px;
+    background: #b8b8b6;
+}
+
+.version-selector, .lang-button {
+    float: right;
+    width: 80px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.version-selector {
+    background: #51ff00
+}
+
+.lang-button {
+    background: #0059ff
+}
+
+.nav-menus {
+    float: right;
+    margin-right: 10px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+}
+
+.nav-menu-item {
+    float: left;
+    width: 25%;
+    height: 70px;
+    line-height: 68px;
+    border-top: solid 2px transparent;
+    cursor: pointer;
+}
+
+.nav-menu-item:hover, .nav-menu-item[selected] {
+    border-top: solid 2px #2f00ff;
+    color: #2f00ff;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.main, .aside-left, .aside-right { float: left;
+    min-height: 450px;
+}
+
+.main {
+    width: 100%;
+    background: #fde006;
+}
+
+.aside-left {
+    margin-left: -100%;
+    width: 200px;
+    background: #c300ff;
+}
+
+.aside-right {
+    margin-left: -300px;
+    width: 300px;
+    background: #3cff00;
+}
+
+.content {
+    margin: 0 300px 0 200px;
+    padding: 0px 40px;
+}

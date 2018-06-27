@@ -1,0 +1,89 @@
+body {
+    padding:  0px;
+    margin: 0px;
+}
+.root {
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+    min-width: 1200px;
+    min-height: 600px;
+    flex-flow: column;
+}
+.header {
+    display: flex;
+    flex: 0 1 70px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.header > div {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-start;
+}
+.header > div + div {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+}
+.container {
+    display: flex;
+    flex: 1 1 auto;
+    padding-top: 30px;
+    min-height: 400px;
+}
+.aside-left {
+    flex: 0 0 200px;
+    background: #f02cbf;
+}
+.main {
+    flex: 1 0 auto;
+    background: #d3f02c;
+}
+.aside-right {
+    flex: 0 0 300px;
+    background: #f02c2c;
+}
+.site-icon {
+    flex: 0 1 200px;
+    background: #ff0000;
+}
+.search-bar {
+    flex: 0 1 350px;
+    background: #b8b8b6;
+}
+.version-selector, .lang-button {
+    display: flex;
+    flex: 0 1 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.version-selector {
+    background: #51ff00
+}
+.lang-button {
+    background: #0059ff
+}
+.nav-menus {
+    display: flex;
+    flex: 0 1 300px;
+    margin-right: 10px;
+    text-align: center;
+}
+.nav-menu-item {
+    display: flex;
+    flex: 1 1 auto;
+    border-top: solid 2px transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-menu-item:hover, .nav-menu-item[selected] {
+    border-top: solid 2px #2f00ff;
+    color: #2f00ff;
+}
+.content {
+    margin: 0 300px 0 200px;
+    padding: 0px 40px;
+}
